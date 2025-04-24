@@ -3,13 +3,13 @@ import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import Image from "next/image"
 import { Layout } from "@/components/Layout"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
+import { Button } from "@/components/ui/Button"
+import { Input } from "@/components/ui/Input"
 import { Plus, X, Check, Trash2, FlameIcon as Fire, Loader2 } from "lucide-react"
 // Import the GradientBackground component at the top of the file
 import { GradientBackground } from "@/components/ui/GradientBackground"
-import { Textarea } from "@/components/ui/textarea"
-import { Label } from "@/components/ui/label"
+import { Textarea } from "@/components/ui/Textarea"
+import { Label } from "@/components/ui/Label"
 import { toast } from "@/hooks/use-toast"
 
 /**

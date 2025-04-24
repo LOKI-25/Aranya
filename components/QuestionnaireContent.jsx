@@ -2,12 +2,12 @@
 import { useState } from "react"
 import { motion } from "framer-motion"
 import { Typography } from "@/components/ui/Typography"
-import { Card } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { Textarea } from "@/components/ui/textarea"
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
+import { Card } from "@/components/ui/Card"
+import { Button } from "@/components/ui/Button"
+import { Input } from "@/components/ui/Input"
+import { Label } from "@/components/ui/Label"
+import { Textarea } from "@/components/ui/Textarea"
+import { RadioGroup, RadioGroupItem } from "@/components/ui/Radio-group"
 const questions = [
   {
     id: "experience",

@@ -3,9 +3,9 @@ import { useState, useEffect, useRef } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import Image from "next/image"
 import Link from "next/link"
-import { Input } from "@/components/ui/input"
-import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
+import { Input } from "@/components/ui/Input"
+import { Button } from "@/components/ui/Button"
+import { Badge } from "@/components/ui/Badge"
 import {
   Search,
   Clock,

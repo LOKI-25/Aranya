@@ -4,7 +4,7 @@ import Link from "next/link"
 import { BookOpen, BarChart2, Smile, Layout, ChevronRight } from "lucide-react"
 import { ClientThemeToggle } from "@/components/ClientThemeToggle"
 import { Typography } from "@/components/ui/Typography"
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/Button"
 import { motion } from "framer-motion"
 import { ProfileDialog } from "@/components/ProfileDialog"
 const container = {

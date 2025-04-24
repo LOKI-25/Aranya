@@ -1,11 +1,11 @@
 import { Layout } from "@/components/Layout"
 import { Typography } from "@/components/ui/Typography"
 import { PageHeader } from "@/components/PageHeader"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-import { Button } from "@/components/ui/button"
-import { Label } from "@/components/ui/label"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import { Input } from "@/components/ui/Input"
+import { Textarea } from "@/components/ui/Textarea"
+import { Button } from "@/components/ui/Button"
+import { Label } from "@/components/ui/Label"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/Select"
 export default function ContactSupportPage() {
   return (
     <Layout>

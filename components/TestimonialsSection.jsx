@@ -1,7 +1,7 @@
 "use client"
 import { motion } from "framer-motion"
 import { Typography } from "@/components/ui/Typography"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/Avatar"
 const testimonials = [
   {
     quote: "Prajnayana has transformed my daily mindfulness practice. The journaling features are exceptional.",

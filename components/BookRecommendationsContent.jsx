@@ -4,9 +4,9 @@ import { motion, AnimatePresence } from "framer-motion"
 import Image from "next/image"
 import Link from "next/link"
 import { ChevronLeft, ChevronRight, ExternalLink, BookOpen, ArrowRight } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
-import { Input } from "@/components/ui/input"
+import { Button } from "@/components/ui/Button"
+import { Badge } from "@/components/ui/Badge"
+import { Input } from "@/components/ui/Input"
 // Import the GradientBackground component at the top of the file
 import { GradientBackground } from "@/components/ui/GradientBackground"
 // Sample book data for the recommendations

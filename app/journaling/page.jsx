@@ -3,8 +3,8 @@ import { useState, useEffect, useRef } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import Image from "next/image"
 import { Layout } from "@/components/Layout"
-import { Button } from "@/components/ui/button"
-import { Textarea } from "@/components/ui/textarea"
+import { Button } from "@/components/ui/Button"
+import { Textarea } from "@/components/ui/Textarea"
 import {
   Edit,
   Trash2,
@@ -24,8 +24,8 @@ import {
 } from "lucide-react"
 import { format, parseISO, isToday, isYesterday, addDays, subDays } from "date-fns"
 import { GradientBackground } from "@/components/ui/GradientBackground"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { Label } from "@/components/ui/label"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/Select"
+import { Label } from "@/components/ui/Label"
 import api from "@/lib/api"
 import {
   Dialog,
@@ -34,7 +34,7 @@ import {
   DialogTitle,
   DialogFooter,
   DialogDescription,
-} from "@/components/ui/dialog"
+} from "@/components/ui/Dialog"
 import { toast } from "@/components/ui/use-toast"
 
 // Map mood to icon for visual representation

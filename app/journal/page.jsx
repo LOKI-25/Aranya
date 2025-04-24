@@ -1,6 +1,6 @@
 import { Typography } from "@/components/ui/Typography"
-import { Card } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
+import { Card } from "@/components/ui/Card"
+import { Button } from "@/components/ui/Button"
 /**
  * JournalPage component
  * Simple placeholder for journal entries

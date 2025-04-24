@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react"
 import { motion } from "framer-motion"
 import Image from "next/image"
 import { Layout } from "@/components/Layout"
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/Button"
 import { PlusCircle, X, MessageSquare, BookOpen, Trophy, Brain, Edit, AlertTriangle } from "lucide-react"
 import {
   Dialog,
@@ -13,10 +13,10 @@ import {
   DialogTrigger,
   DialogFooter,
   DialogDescription,
-} from "@/components/ui/dialog"
-import { Label } from "@/components/ui/label"
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
-import { Textarea } from "@/components/ui/textarea"
+} from "@/components/ui/Dialog"
+import { Label } from "@/components/ui/Label"
+import { RadioGroup, RadioGroupItem } from "@/components/ui/Radio-group"
+import { Textarea } from "@/components/ui/Textarea"
 import { GradientBackground } from "@/components/ui/GradientBackground"
 import { toast } from "@/hooks/use-toast"
 import api from "@/lib/api"

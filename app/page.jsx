@@ -4,7 +4,7 @@ import { motion, useScroll, useTransform, useSpring, useAnimation } from "framer
 import Image from "next/image"
 import Link from "next/link"
 import { Layout } from "@/components/Layout"
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/Button"
 import { GradientBackground } from "@/components/ui/GradientBackground"
 /**
  * Section title component with animation

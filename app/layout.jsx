@@ -2,7 +2,7 @@ import "./globals.css"
 import { Inter } from "next/font/google"
 import { ThemeProvider } from "@/components/ThemeProvider"
 import { Footer } from "@/components/Footer"
-import { Toaster } from "@/components/ui/toaster"
+import { Toaster } from "@/components/ui/Toaster"
 
 /**
  * Inter font configuration with Latin subset

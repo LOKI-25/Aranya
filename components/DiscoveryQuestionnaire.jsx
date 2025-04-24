@@ -1,10 +1,10 @@
 "use client"
 import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-import { Typography } from "@/components/ui/typography" // Fixed import path - lowercase "typography"
-import { Button } from "@/components/ui/button"
+import { Typography } from "@/components/ui/Typography" // Fixed import path - lowercase "typography"
+import { Button } from "@/components/ui/Button"
 import { ChevronLeft, ChevronRight, Loader2 } from "lucide-react"
-import { Progress } from "@/components/ui/progress"
+import { Progress } from "@/components/ui/Progress"
 import api from "@/lib/api"
 import { useRouter } from "next/navigation"
 

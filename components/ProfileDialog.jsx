@@ -1,5 +1,5 @@
 "use client"
-import { Dialog, DialogContent } from "@/components/ui/dialog"
+import { Dialog, DialogContent } from "@/components/ui/Dialog"
 import { ProfileCard } from "@/components/ProfileCard"
 /**
  * ProfileDialog component

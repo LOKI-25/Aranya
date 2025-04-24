@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
 import { Sun, Moon } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/Button"
 import { usePreferences } from "@/contexts/PreferencesContext"
 /**
  * ThemeToggle component for switching between light and dark themes
